@@ -1,0 +1,92 @@
+*{
+	margin:0;
+}
+html{
+	background-color: black;
+}
+html, body{
+	height:100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+.footer, .push{
+	height:4em;
+}
+h1, .jam{
+	margin-top: 70px;
+	margin-bottom: 13px;
+	font-family: 'Titania', sans-serif;
+	font-size: 80px;
+	color:white;
+	text-align: center;
+	text-decoration: underline;
+}
+h3, .descript{
+	color:white;
+	text-align: center;
+	font-family: "Fabrica", sans-serif;
+	font-size: 20px;
+}
+.zipCode{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom: 55px;
+}
+.zipSpace{
+	border-radius:8px;
+	margin-top:33px;
+	height:22px;
+}
+.btn{
+	/*display:none;*/
+}
+.red{
+	margin-right:30px;
+}
+.blue{
+	margin-left:30px;
+}
+/*.musicPlayer{
+	position:relative;
+	text-align: center;
+	margin:auto;
+	top:200px;
+	left:565px;
+
+}*/
+.templates{
+	display:none;
+}
+#list{
+	margin-left:72px;
+	margin-top:10px;
+	/*margin-right:20px;
+	margin-bottom: 100px;*/
+}
+.player{
+	margin-right: 35px;
+	margin-bottom: 10px;
+}
+.footer, .push{
+	height:4em;
+}
+.footer{
+	width:100%;
+	background-color: white;
+	margin:auto;
+	bottom:0;
+	left:0;
+	margin-top: 25%;
+}
+.powered{
+	
+	font-size: 13px;
+	font-family: "Fabrica", sans-serif;
+	padding-top: 23px;
+	position: relative;
+	left: 23px;
+}

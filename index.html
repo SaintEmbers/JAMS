@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API Hack</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="reset.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div class='wrapper'>
+	<div class='headline'>
+		
+		<h1 class="jam"><span><img class="red" src="images/red-arrow.png"></span>Jam Stream<span><img class="blue" src="images/blue-arrow.png"></span></h1>
+		<h3 class="descript">Stream the bands playing in your area</h3>
+	</div>
+	<div>
+		<form class="zipCode" onsubmit="return false;">
+				<input class='zipSpace' type="text" placeholder='            Enter Zip-Code' name="zip" size="30"required>
+				<!-- <input class="btn" type="submit" value="Submit"> -->
+			</form>
+			
+	</div>
+	<div>
+		<ul id="list">
+			<!-- <iframe src="https://embed.spotify.com/?uri=spotify:track:37pFLuNVnAJQL9ysRoKTdy" width="300" height="380" frameborder="0" allowtransparency="true"></iframe> -->
+		</ul>
+	</div>
+	<div class="push"></div>
+
+	<footer class='footer'>
+		<p class="powered">Powered by Jam Base and Spotify</p>
+	</footer>
+	</div>
+</body>
+</html>
